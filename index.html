@@ -24,20 +24,19 @@
             background-size: 800px;
             background-position: center center;
             background-repeat: no-repeat;
-            background-size: contain;
-            color: deeppink;   
-        }
+            background-size: contain;   
+        }   
 
         .time {
-            font-size: 80px;
-        }
-
-        .greeting {
             font-size: 50px;
         }
 
-        .todo {
+        .greeting {
             font-size: 30px;
+        }
+
+        .todo {
+            font-size: 35px;
             font-weight: bold;
         }
 
@@ -65,6 +64,16 @@
             align-items: center;
             justify-content: center;
         }
+
+        .box {
+            margin-right: 350px;
+            color: hotpink;
+        }
+
+        .box2 {
+            margin-top: 400px;
+            color: cadetblue;
+        }
     </style>
 
     <script>
@@ -74,11 +83,13 @@
 
 <body>
 <div class="main">
+    <div class="box">
     <div id="time" class="time">21:00</div>
-    <div class="greeting">HELLO !</div>
-    <div class="todo">매일 5시 기상</div>
+    <div class="greeting">Salut, coucou !</div>
+    <div class="todo">행복하게 살자♥</div>
 </div>
 <div class="quote">
+    <div class="box2">
     <div id="author" class="author">- 명언의 저자 -</div>
     <div id="content" class="content">" 명언의 내용 "</div>
 </div>
